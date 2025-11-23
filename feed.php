@@ -1,0 +1,14 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+if (!isset($_SESSION['user'])) {
+    header("Location: index.php");
+    exit;
+}
+
+require_once 'controllers/PostController.php';
+$controller = new PostController();
+$controller->index();
+?>
