@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- SIDEBAR CORRIGIDA -->
     <div class="sidebar">
         <ul>
             <li><a href="feed.php"><i class="fas fa-home"></i></a></li>
@@ -67,4 +66,5 @@
         <?php endif; ?>
     </div>
 </body>
+
 </html>
